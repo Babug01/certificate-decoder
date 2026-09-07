@@ -1,5 +1,7 @@
 # Certificate Decoder
 
+**Live demo:** https://babug01.github.io/certificate-decoder/
+
 Paste a PEM X.509 certificate to see what `openssl x509 -in cert.crt -text -noout` would show —
 subject, issuer, validity window (with days-remaining or days-expired called out explicitly), SANs,
 public key details, key usage, and both SHA-256 and SHA-1 fingerprints. Runs entirely in the
