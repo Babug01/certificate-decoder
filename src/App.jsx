@@ -161,7 +161,7 @@ export default function CertDecoderTool() {
 
   return (
     <div style={styles.root}>
-      <Header title="Certificate Decoder" repoUrl={REPO_URL} />
+      <Header repoUrl={REPO_URL} />
       <div style={styles.content}>
       <h1 style={styles.title}>Certificate Decoder</h1>
       <p style={styles.subtitle}>Paste a PEM certificate (-----BEGIN CERTIFICATE-----) to see what `openssl x509 -in cert.crt -text -noout` would show — subject, issuer, validity, SANs, public key, and fingerprints. Nothing leaves the browser.</p>
