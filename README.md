@@ -1,6 +1,6 @@
 # Certificate Decoder
 
-**Live demo:** https://babug01.github.io/certificate-decoder/
+**Live demo:** https://certificate-decoder.vercel.app (Vercel) · [GitHub Pages mirror](https://babug01.github.io/certificate-decoder/)
 
 Paste a PEM X.509 certificate to see what `openssl x509 -in cert.crt -text -noout` would show —
 subject, issuer, validity window (with days-remaining or days-expired called out explicitly), SANs,
